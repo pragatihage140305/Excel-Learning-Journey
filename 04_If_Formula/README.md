@@ -1,92 +1,98 @@
-# 🔀 IF Formulas in Excel
+# 📊 Excel Introduction
 
-## 📌 Overview
+## 📌 About Microsoft Excel
 
-In this lesson, I learned how to use the **IF function in Microsoft Excel**.
+Microsoft Excel is a spreadsheet application developed by Microsoft. It is used to organize, store, calculate, analyze, and manage data.
 
-The IF function is a logical function used to check whether a condition is TRUE or FALSE and return a corresponding result.
+Excel is widely used in fields such as:
 
----
-
-## 🔢 IF Function Syntax
-
-```excel
-=IF(logical_test, value_if_true, value_if_false)
-```
-
-### Parameters
-
-* **logical_test** → The condition that needs to be checked.
-* **value_if_true** → The result returned when the condition is TRUE.
-* **value_if_false** → The result returned when the condition is FALSE.
+* Data Analysis
+* Business
+* Finance
+* Education
+* Project Management
 
 ---
 
-## 📝 Example
+## 🧩 Basic Excel Terminology
 
-To check whether a student has passed or failed:
+### Workbook
 
-```excel
-=IF(J2>=35,"Pass","Fail")
-```
+A workbook is an Excel file that can contain one or more worksheets.
 
-If the value in `J2` is **35 or more**, Excel returns:
+### Worksheet
 
-```text
-Pass
-```
+A worksheet is a single spreadsheet inside a workbook where data is entered and organized.
 
-Otherwise, it returns:
+### Row
 
-```text
-Fail
-```
+Rows run horizontally and are identified by numbers.
+
+**Example:** `1, 2, 3, 4...`
+
+### Column
+
+Columns run vertically and are identified by letters.
+
+**Example:** `A, B, C, D...`
+
+### Cell
+
+A cell is the intersection of a row and a column.
+
+**Example:** `A1`, `B2`, `C5`
+
+### Range
+
+A range is a group of selected cells.
+
+**Example:** `A1:C10`
 
 ---
 
-## 📊 Practice
+## 📑 Excel Tabs
 
-I practiced the IF function using the student marks dataset.
+### 🏠 Home
 
-The IF formula was used to apply a condition and automatically return the required result for each student.
+Used for basic formatting, font styling, alignment, copy, and paste.
+
+### ➕ Insert
+
+Used to insert tables, charts, pictures, PivotTables, and other objects.
+
+### 📐 Page Layout
+
+Used to manage page settings such as margins, orientation, and page size.
+
+### 🔢 Formulas
+
+Used to perform calculations and work with different Excel functions.
+
+### 📊 Data
+
+Used for sorting, filtering, data validation, and managing data.
+
+### 🔍 Review
+
+Used for spelling checks, comments, and worksheet protection.
+
+### 👁️ View
+
+Used to control how the worksheet is displayed, including zoom and freeze panes.
 
 ---
 
 ## 🎯 Key Learnings
 
-* Understanding the IF function
-* Understanding logical conditions
-* Using comparison operators with IF
-* Returning different results based on a condition
-* Applying IF formulas to multiple rows
-
----
-
-## 🧠 Important Concept
-
-The basic logic of the IF function is:
-
-```text
-Condition
-   ↓
-TRUE  →  One Result
-FALSE →  Another Result
-```
-
----
-
-## 📂 Files
-
-```text
-04_IF_Formulas_in_Excel/
-│
-├── README.md
-└── IF_Formulas_Practice.xlsx
-```
+* Introduction to Microsoft Excel
+* Workbook and Worksheet
+* Rows and Columns
+* Cells and Ranges
+* Basic understanding of Excel tabs
 
 ---
 
 ## 🚀 Progress
 
-**Topic:** IF Formulas in Excel
+**Topic:** Excel Introduction
 **Status:** ✅ Completed
